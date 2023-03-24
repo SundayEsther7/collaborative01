@@ -7,14 +7,36 @@
 <body>
   <form id="survey-form">
     <label id="name-label" for="name">Name:</label>
-    <input type="text" id="name">
+    <input type="text" id="name"  placeholder="Enter your name"/>
     <br/>
     <label id="email-label" for="email">Email:</label>
     <input type="email" id="email" placeholder="Enter your email"/>
     <br/>
     <label id="number-label" for="number">Phone number:</label>
-    <input type="number" pattern="[0-9]" id="number" min="100000" max="999999"/>
+    <input type="number" pattern="[0-9]" id="number" min="100000" max="999999"  placeholder="Enter your number"/>
     <br/>
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+    <br/>
+    
+<label for="gender1">Male</label>
+<input type="radio" id="gender1" name=" gender" velue="male"/>
+<label for="gender2">Female</label>
+<input type="radio" id="gender2" name=" gender" velue="female"/>
+<br/>
+<p>What do you like</p>
+<label for="music" > Music</label>
+<input type="checkbox" name="nameOfChoice" value="1">
+<label for="sports" > Sports</label>
+<input type="checkbox" name="Sports" value="2">
+<label for="Travelling" > Travelling</label>
+<input type="checkbox" name="Travelling" value="3">
+<label for="Reading" >Reading </label>
+<input type="checkbox" name="Reading" value="4">
     <input type="submit">
     </form>
   </body>
